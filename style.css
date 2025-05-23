@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+:root {
+    /* Light colors */
+    --lavender-purple: #7C19EE;
+    --pastel-lavender: #F2EAFD;
+    --light-slate: #E5EAF0;
+    --off-white: #FAFAF9;
+    --pure-white: #FFFFFF;
+
+    /* Dark colors */
+    --deep-navy: #20293A;
+    --cool-gray: #394150;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: var(--off-white);
+    color: var(--deep-navy);
+}
+
+main {
+    margin: 9rem auto 4rem auto;
+    background-color: var(--pure-white);
+    padding: 1.3rem;
+    border-radius: 1rem;
+    max-width: 400px;
+    width: 95%;
+    overflow: hidden;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.09);
+}
+
+main picture img{
+    object-fit: cover;
+    border-radius: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+main .title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    background-color: var(--pastel-lavender);
+    display: block;
+    max-width: 70px;
+    width: 100%;
+    text-align: center;
+    color: var(--lavender-purple);
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-bottom: 6px;
+}
+
+p {    
+    color: var(--cool-gray);
+    margin-bottom: 20px;
+    font-size: 0.875rem;
+    max-width: 310px;
+    line-height: 2;
+    width: 100%;
+}
+
+hr {
+    margin-bottom: 20px;
+    border: 1.5px solid var(--light-slate);
+}
+
+.name {
+    color: var(--cool-gray);
+    font-size: 0.875rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.825rem;
+}
+
+footer a,
+footer a:visited {    
+    text-decoration: none;
+}
