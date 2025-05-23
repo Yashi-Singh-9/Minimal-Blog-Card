@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://your-live-demo-link.com">
+    <a href="https://yashi-singh-9.github.io/Minimal-Blog-Card/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/Yashi-Singh-9/Minimal-Blog-Card">
+    <a href="https://devchallenges.io/solution/50714">
       Solution
     </a>
     <span> | </span>
@@ -25,6 +25,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Screenshot](#screenshot)
 - [What I Learned](#what-i-learned)
 - [Built With](#built-with)
 - [Features](#features)
@@ -36,14 +37,18 @@
 
 ## Overview
 
+The **Minimal Blog Card** is a front-end challenge solution from devChallenges.io. It showcases a responsive and visually appealing card layout suitable for blog previews. Designed with modern web standards, it uses semantic HTML5, CSS variables, and Flexbox for structure and styling. The layout adapts gracefully across desktop, tablet, and mobile devices, ensuring readability and usability on all screen sizes. High-resolution images are supported via the `<picture>` element and `srcset`, enhancing the visual experience. This project emphasizes clean design, accessibility, and responsive best practices.
+
+## Screenshot
+
 **Desktop Design**  
 ![Minimal Blog Card Desktop Screenshot](./design/desktop-design.png)
 
 **Tablet Design**  
-![Minimal Blog Card Tablet Screenshot](./design/tablet-design.png)
+<img src="./design/tablet-design.png" height="750px">
 
 **Mobile Design**  
-![Minimal Blog Card Mobile Screenshot](./design/mobile-design.png)
+<img src="./design/mobile-design.png" height="750px">
 
 ### What I Learned
 
